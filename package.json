@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "browser-sync start --server --files *.html --no-open",
+    "fmt": "prettier --write **/*.{js,json,md,html}"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "prettier": "^1.18.2"
+  }
+}
