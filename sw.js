@@ -14,6 +14,11 @@ self.addEventListener('install', function(event) {
   );
 });
 
+self.addEventListener('activate', function(event) {
+  console.log('===activate===');
+  console.log(event);
+});
+
 self.addEventListener('fetch', function(event) {
   console.log('===fetch===');
   console.log(event);
