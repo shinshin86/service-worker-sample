@@ -7,7 +7,7 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "prettier": "^1.18.2"
+    "browser-sync": "^2.27.9",
+    "prettier": "^2.6.2"
   }
 }
